@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data / research outputs
+data/
+raw_data/
+datasets/
+artifacts/
+results/
+reports/generated/
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+credentials/
+secrets/
+
+# Local outputs
+output/
+logs/
+tmp/
